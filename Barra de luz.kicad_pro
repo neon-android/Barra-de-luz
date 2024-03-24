@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3048,
+        0.762
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -475,30 +490,6 @@
     [
       "9766723e-22df-4d3c-ad55-2258ea78ff30",
       "Regulador"
-    ],
-    [
-      "f543b265-8a42-4f01-a28b-2587c270217c",
-      "neopixel"
-    ],
-    [
-      "05d8bf4f-b9fc-40ac-9c20-cd58ac8e8779",
-      "neopixel1"
-    ],
-    [
-      "8583bcce-ad33-4678-8a35-f728d92a816f",
-      "neopixel2"
-    ],
-    [
-      "d02b0afb-7920-46a3-b63a-7137c6705f57",
-      "neopixel3"
-    ],
-    [
-      "0f521d6c-6763-4c26-bedc-ff5de5fe02a4",
-      "neopixel4"
-    ],
-    [
-      "1e5cf89d-6c7e-4e60-8499-957a52b7a25b",
-      "neopixel5"
     ]
   ],
   "text_variables": {}
