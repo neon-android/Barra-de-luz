@@ -451,6 +451,58 @@
         )
       )
     )
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+12V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+12V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+12V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+12V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -570,6 +622,10 @@
     (stroke (width 0) (type default))
     (uuid 66cf6073-2954-4b7d-bcd4-e8cd19562e96)
   )
+  (bus (pts (xy 12.1158 134.5692) (xy 92.8624 134.5692))
+    (stroke (width 0) (type default))
+    (uuid 67082e7a-9ba6-4bcd-bf1f-d60fb7c5ae84)
+  )
 
   (wire (pts (xy 58.42 44.704) (xy 63.2206 44.704))
     (stroke (width 0) (type default))
@@ -588,6 +644,11 @@
     (stroke (width 0) (type default))
     (uuid cd1be6f2-8a63-4db5-b491-f7ee40227d8d)
   )
+  (bus (pts (xy 92.8624 77.597) (xy 92.8624 134.5692))
+    (stroke (width 0) (type default))
+    (uuid f8436a61-682b-4ca0-9a55-ce05f29ccabe)
+  )
+
   (wire (pts (xy 132.6896 51.6382) (xy 132.6896 48.387))
     (stroke (width 0) (type default))
     (uuid ff6ef50c-7078-4781-bcf3-eef897619b0d)
@@ -605,8 +666,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 36cfeaca-d687-46e7-a2af-62bc57388a5c)
   )
-  (label "PB4" (at 158.115 45.72 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "PB4" (at 61.6966 103.8606 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 677b5af2-5ecd-4d22-80e7-7dfebfe72539)
   )
   (label "MOSI" (at 158.115 35.56 180) (fields_autoplaced)
@@ -657,7 +718,7 @@
   (symbol (lib_id "power:GND") (at 113.411 58.547 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e1d09d2-883c-41a6-b6aa-3fc035c2f6e1)
-    (property "Reference" "#PWR079" (at 113.411 64.897 0)
+    (property "Reference" "#PWR03" (at 113.411 64.897 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.411 63.804 0)
@@ -673,7 +734,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -682,7 +743,7 @@
   (symbol (lib_id "power:GND") (at 132.6896 61.7982 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e8b31c2-db9a-4a13-bf72-65a20c060d78)
-    (property "Reference" "#PWR082" (at 132.6896 68.1482 0)
+    (property "Reference" "#PWR04" (at 132.6896 68.1482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.6896 67.0552 0)
@@ -698,7 +759,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -707,7 +768,7 @@
   (symbol (lib_id "power:+5V") (at 113.411 28.067 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 467ecf97-3215-4e9d-b0d3-6ec56bee8eba)
-    (property "Reference" "#PWR076" (at 113.411 31.877 0)
+    (property "Reference" "#PWR02" (at 113.411 31.877 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 113.411 23.4271 0)
@@ -723,7 +784,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -786,7 +847,7 @@
   (symbol (lib_id "power:+5V") (at 221.5642 30.607 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e7a95fa-f4e4-4d31-b6a9-f06f4408239c)
-    (property "Reference" "#PWR09" (at 221.5642 34.417 0)
+    (property "Reference" "#PWR08" (at 221.5642 34.417 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 221.5642 25.3704 0)
@@ -802,7 +863,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -827,6 +888,31 @@
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
           (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 158.115 45.72 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 67b69470-8f82-4462-912b-422dd4a0ea36)
+    (property "Reference" "#PWR06" (at 161.925 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 153.6897 45.72 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 158.115 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 158.115 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dce61799-e18e-4506-a092-85dfc15a16eb))
+    (instances
+      (project "Barra de luz"
+        (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -885,7 +971,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x08") (at 163.195 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3958ca2-8ec0-492b-ad06-de578fdf1c4d)
-    (property "Reference" "J3" (at 165.6588 40.64 0)
+    (property "Reference" "J1" (at 165.6588 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x08" (at 165.6588 43.18 0)
@@ -908,7 +994,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -917,7 +1003,7 @@
   (symbol (lib_id "power:+5V") (at 63.2206 32.8676 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acb259a6-0443-4de7-b367-180e08ac0c63)
-    (property "Reference" "#PWR075" (at 63.2206 36.6776 0)
+    (property "Reference" "#PWR01" (at 63.2206 36.6776 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 63.2206 28.3718 0)
@@ -933,7 +1019,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -966,7 +1052,7 @@
   (symbol (lib_id "power:GND") (at 221.5642 53.467 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid effc2c46-6ea7-4add-9ac7-6af58e3e6b28)
-    (property "Reference" "#PWR010" (at 221.5642 59.817 0)
+    (property "Reference" "#PWR09" (at 221.5642 59.817 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.5642 58.552 0)
@@ -982,7 +1068,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1023,7 +1109,7 @@
   (symbol (lib_id "power:GND") (at 158.115 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fba49246-8a65-4378-ad20-1a887afa62b2)
-    (property "Reference" "#PWR012" (at 158.115 57.15 0)
+    (property "Reference" "#PWR07" (at 158.115 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.115 56.057 0)
@@ -1039,7 +1125,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1048,7 +1134,7 @@
   (symbol (lib_id "power:+5V") (at 158.115 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe9aa4fd-60fc-40bd-949c-a8cef25937a7)
-    (property "Reference" "#PWR011" (at 158.115 36.83 0)
+    (property "Reference" "#PWR05" (at 158.115 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 158.115 28.3801 0)
@@ -1064,8 +1150,29 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
+      )
+    )
+  )
+
+  (sheet (at 41.9862 98.933) (size 19.7104 13.6652) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c3a2400-0202-4d0d-b5cf-4bb9cf14c82b)
+    (property "Sheetname" "Rele" (at 41.9862 98.2214 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Rele.kicad_sch" (at 41.9862 113.1828 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "sig" input (at 61.6966 103.8606 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8bb8cde2-d84c-446c-bad9-2462ac8619ae)
+    )
+    (instances
+      (project "Barra de luz"
+        (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779" (page "3"))
       )
     )
   )

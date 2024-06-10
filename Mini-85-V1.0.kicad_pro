@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Barra de luz.kicad_pro",
+    "filename": "Mini-85-V1.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -490,6 +490,10 @@
     [
       "9766723e-22df-4d3c-ad55-2258ea78ff30",
       "Regulador"
+    ],
+    [
+      "7c3a2400-0202-4d0d-b5cf-4bb9cf14c82b",
+      "Rele"
     ]
   ],
   "text_variables": {}

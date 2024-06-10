@@ -798,7 +798,7 @@
   (symbol (lib_id "power:GND") (at 168.3004 108.0008 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00060b63-eacf-4d91-a3c4-8d0c4f5ec0a2)
-    (property "Reference" "#PWR06" (at 168.3004 114.3508 0)
+    (property "Reference" "#PWR015" (at 168.3004 114.3508 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.3004 113.0808 0)
@@ -814,7 +814,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -828,7 +828,7 @@
   (symbol (lib_id "power:GND") (at 187.3504 108.0008 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16e220f4-109c-481c-aff1-1d3b959a8c54)
-    (property "Reference" "#PWR08" (at 187.3504 114.3508 0)
+    (property "Reference" "#PWR017" (at 187.3504 114.3508 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.3504 113.0808 0)
@@ -844,7 +844,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -858,7 +858,7 @@
   (symbol (lib_id "power:+12V") (at 115.2144 83.1088 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d14e70d-179f-46a6-bdf1-8820978a6a23)
-    (property "Reference" "#PWR02" (at 115.2144 86.9188 0)
+    (property "Reference" "#PWR011" (at 115.2144 86.9188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 115.2144 78.7908 0)
@@ -874,7 +874,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -888,7 +888,7 @@
   (symbol (lib_id "power:GND") (at 105.0798 102.7176 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2810f299-1819-4400-9ce6-9456b525d96f)
-    (property "Reference" "#PWR01" (at 105.0798 109.0676 0)
+    (property "Reference" "#PWR010" (at 105.0798 109.0676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.0798 107.7976 0)
@@ -904,7 +904,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -1074,7 +1074,7 @@
   (symbol (lib_id "power:GND") (at 182.3974 89.9414 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82f3a9df-d839-4501-9951-275b66963b66)
-    (property "Reference" "#PWR07" (at 182.3974 96.2914 0)
+    (property "Reference" "#PWR016" (at 182.3974 96.2914 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.3974 95.0214 0)
@@ -1090,7 +1090,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -1224,7 +1224,7 @@
   (symbol (lib_id "power:GND") (at 151.7904 106.7308 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aade34ef-5bb1-4878-90f5-1e33a61f57cb)
-    (property "Reference" "#PWR05" (at 151.7904 113.0808 0)
+    (property "Reference" "#PWR014" (at 151.7904 113.0808 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.7904 111.8108 0)
@@ -1240,7 +1240,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -1254,7 +1254,7 @@
   (symbol (lib_id "power:GND") (at 115.2144 108.0008 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0c8eec5-8057-4a82-b106-5f275b46b0ce)
-    (property "Reference" "#PWR03" (at 115.2144 114.3508 0)
+    (property "Reference" "#PWR012" (at 115.2144 114.3508 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.2144 113.0808 0)
@@ -1270,7 +1270,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
@@ -1362,7 +1362,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 99.9744 94.0308 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6a50a91-a175-4f49-adad-fed6ba92a588)
-    (property "Reference" "J4" (at 97.2897 94.0308 0)
+    (property "Reference" "J3" (at 97.2897 94.0308 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VIN" (at 113.2409 85.4664 0)
@@ -1379,7 +1379,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1388,7 +1388,7 @@
   (symbol (lib_id "power:GND") (at 130.2004 102.9208 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaf43beb-6ba7-4254-934a-a38b0f5e4c93)
-    (property "Reference" "#PWR04" (at 130.2004 109.2708 0)
+    (property "Reference" "#PWR013" (at 130.2004 109.2708 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.2004 108.0008 0)
@@ -1404,7 +1404,7 @@
     (instances
       (project "Barra de luz"
         (path "/25a937c4-d167-4ef2-bc5e-c2d8b81e8779/9766723e-22df-4d3c-ad55-2258ea78ff30"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "ER-PROMEGA-SHIELD"
